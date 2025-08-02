@@ -1,6 +1,6 @@
 import express, { json } from 'express' //require ---> commonJS
 import { moviesRouter } from './routes/movies.js'
-import { corsMiddleware } from './middlewares/cors.js'
+import { corsMiddleware } from '../middlewares/cors.js'
 //como leer un json en ESModules
 // import fs from 'node:fs'
 // const movies = JSON.parse(fs.readFileSync('./movies.json', 'utf-8'))

@@ -1,5 +1,4 @@
 import { randomUUID } from 'node:crypto'
-
 import { Router } from 'express'
 
 import { validateMovie, validatePartialMovie } from '../Schemas/movies.js'
